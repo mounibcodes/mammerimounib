@@ -2,6 +2,7 @@
 
 import Navbar from "./components/Navbar";
 import { newwake } from './fonts';
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -17,7 +18,7 @@ export default function Home() {
               WEB DEVELOPER / WEB DESIGNER
             </h2>
             <p className={`${newwake.className} text-xl text-gray-600 mb-12 max-w-3xl mx-auto`}>
-              IN 2025 YOU DON'T NEED JUST A WEBSITE, YOU NEED A DIGITAL IDENTITY, AND THAT'S EXACTLY WHAT MOUNIB DOES!
+              IN 2025 YOU DON&apos;T NEED JUST A WEBSITE, YOU NEED A DIGITAL IDENTITY, AND THAT&apos;S EXACTLY WHAT MOUNIB DOES!
             </p>
             
             {/* Social Links */}
@@ -94,7 +95,7 @@ export default function Home() {
                   EDUCATION
                 </h3>
                 <p className={`${newwake.className} text-gray-700 leading-relaxed`}>
-                  MASTER'S OF ENGINEERING AT ÉCOLE NATIONALE SUPÉRIEURE DE TECHNOLOGIE AVANCÉE (ENSTA), ALGIERS, ALGERIA. EXPECTED GRADUATION: 2029
+                  MASTER&apos;S OF ENGINEERING AT ÉCOLE NATIONALE SUPÉRIEURE DE TECHNOLOGIE AVANCÉE (ENSTA), ALGIERS, ALGERIA. EXPECTED GRADUATION: 2029
                 </p>
               </div>
             </div>
@@ -103,7 +104,7 @@ export default function Home() {
                 MY MISSION
               </h3>
               <p className={`${newwake.className} text-lg text-center text-gray-700 leading-relaxed`}>
-                IN 2025 YOU DON'T NEED JUST A WEBSITE, YOU NEED A DIGITAL IDENTITY, AND THAT'S EXACTLY WHAT MOUNIB DOES! I'M EAGER TO JOIN A DYNAMIC TEAM OR INTERNSHIP TO APPLY SKILLS IN REAL-WORLD PROJECTS AND CONTINUE GROWING AS A DEVELOPER.
+                IN 2025 YOU DON&apos;T NEED JUST A WEBSITE, YOU NEED A DIGITAL IDENTITY, AND THAT&apos;S EXACTLY WHAT MOUNIB DOES! I&apos;M EAGER TO JOIN A DYNAMIC TEAM OR INTERNSHIP TO APPLY SKILLS IN REAL-WORLD PROJECTS AND CONTINUE GROWING AS A DEVELOPER.
               </p>
             </div>
           </div>
@@ -160,9 +161,11 @@ export default function Home() {
                   className="block"
                 >
                   <div className="h-48 rounded-2xl mb-4 overflow-hidden cursor-pointer hover:scale-105 transition-transform duration-300">
-                    <img 
+                    <Image 
                       src="/audax.png" 
                       alt="Audax Club Website Project" 
+                      width={400}
+                      height={192}
                       className="w-full h-full object-cover"
                       onError={(e) => {
                         e.target.style.display = 'none';
@@ -201,9 +204,11 @@ export default function Home() {
                   className="block"
                 >
                   <div className="h-48 rounded-2xl mb-4 overflow-hidden cursor-pointer hover:scale-105 transition-transform duration-300">
-                    <img 
+                    <Image 
                       src="/nextgen.png" 
                       alt="NextGen Digital Agency Website Project" 
+                      width={400}
+                      height={192}
                       className="w-full h-full object-cover"
                       onError={(e) => {
                         e.target.style.display = 'none';
@@ -237,9 +242,11 @@ export default function Home() {
               <div className="bg-white/70 backdrop-blur-sm p-6 rounded-3xl shadow-lg border border-gray-200/50 hover:shadow-xl transition-shadow duration-300">
                 
                 <div className="h-48 rounded-2xl mb-4 overflow-hidden">
-                  <img 
+                  <Image 
                     src="/notion.jpg" 
                     alt="Notion CMS Blog Project" 
+                    width={400}
+                    height={192}
                     className="w-full h-full object-cover"
                     onError={(e) => {
                       e.target.style.display = 'none';
@@ -278,9 +285,11 @@ export default function Home() {
                   className="block"
                 >
                   <div className="h-48 rounded-2xl mb-4 overflow-hidden cursor-pointer hover:scale-105 transition-transform duration-300">
-                    <img 
+                    <Image 
                       src="/Acme Dashboard - Brave 10_21_2025 10_01_54 PM.png" 
                       alt="Analytics Dashboard Project" 
+                      width={400}
+                      height={192}
                       className="w-full h-full object-cover"
                       onError={(e) => {
                         e.target.style.display = 'none';
@@ -322,7 +331,7 @@ export default function Home() {
             <div className="space-y-8">
               <div className="bg-white/70 backdrop-blur-sm p-8 rounded-3xl shadow-lg border border-gray-200/50">
                 <p className={`${newwake.className} text-xl text-gray-800 italic text-center mb-4`}>
-                  "MOUNIB TRANSFORMED OUR ONLINE PRESENCE COMPLETELY!"
+                  &ldquo;MOUNIB TRANSFORMED OUR ONLINE PRESENCE COMPLETELY!&rdquo;
                 </p>
                 <p className={`${newwake.className} text-center text-gray-600`}>
                   - SATISFIED CLIENT
@@ -330,7 +339,7 @@ export default function Home() {
               </div>
               <div className="bg-white/70 backdrop-blur-sm p-8 rounded-3xl shadow-lg border border-gray-200/50">
                 <p className={`${newwake.className} text-xl text-gray-800 italic text-center mb-4`}>
-                  "THE BEST WEB DEVELOPER I'VE EVER WORKED WITH!"
+                  &ldquo;THE BEST WEB DEVELOPER I&apos;VE EVER WORKED WITH!&rdquo;
                 </p>
                 <p className={`${newwake.className} text-center text-gray-600`}>
                   - HAPPY CUSTOMER
