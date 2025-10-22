@@ -181,7 +181,7 @@ export default function Home() {
                   AUDAX CLUB WEBSITE
                 </h3>
                 <p className={`${newwake.className} text-gray-700 mb-4`}>
-                  DEVELOPED A DYNAMIC WEBSITE FOR THE UNIVERSITY'S AUDAX CLUB WITH SMOOTH GSAP ANIMATIONS, SCROLL-TRIGGERED EFFECTS, AND A RESPONSIVE LAYOUT. INCREASED ENGAGEMENT THROUGH FLUID MOTION DESIGN.
+                  DEVELOPED A DYNAMIC WEBSITE FOR THE UNIVERSITY&apos;S AUDAX CLUB WITH SMOOTH GSAP ANIMATIONS, SCROLL-TRIGGERED EFFECTS, AND A RESPONSIVE LAYOUT. INCREASED ENGAGEMENT THROUGH FLUID MOTION DESIGN.
                 </p>
                 <div className="flex gap-2 flex-wrap">
                   <span className={`${newwake.className} bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm`}>
@@ -356,7 +356,7 @@ export default function Home() {
               READY TO START YOUR PROJECT?
             </h2>
             <p className={`${newwake.className} text-xl text-gray-700 mb-12`}>
-              LET'S CREATE SOMETHING AMAZING TOGETHER
+              LET&apos;S CREATE SOMETHING AMAZING TOGETHER
             </p>
             <a 
               href="https://wa.me/213552098401" 
