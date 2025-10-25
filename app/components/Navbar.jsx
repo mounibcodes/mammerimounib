@@ -24,11 +24,11 @@ export default function Navbar() {
 
   return (
     <nav>
-      <div className={`${newwake.className} fixed bottom-4 left-1/2 transform -translate-x-1/2 bg-white/90 backdrop-blur-md flex items-center justify-center p-2 rounded-2xl shadow-xl border border-gray-200/50`}>
+      <div className={`${newwake.className} fixed bottom-4 left-1/2 transform -translate-x-1/2 bg-black backdrop-blur-md flex items-center justify-center p-2 rounded-2xl shadow-[0_0_30px_rgba(255,255,255,0.1)] border border-white/20`}>
         <ul className="flex gap-1 md:gap-2">
           {Links.map((link) => (
             <li
-              className="text-gray-700 text-xs font-medium px-2 py-1 cursor-pointer hover:bg-gray-100 hover:text-gray-900 hover:rounded-xl transition-all duration-300 hover:scale-105 whitespace-nowrap"
+              className="text-white text-xs font-medium px-2 py-1 cursor-pointer hover:bg-white hover:text-black hover:rounded-xl transition-all duration-300 hover:scale-105 whitespace-nowrap"
               key={link.id}
               onClick={() => scrollToSection(link.href)}
             >
