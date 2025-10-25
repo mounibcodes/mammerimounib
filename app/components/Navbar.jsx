@@ -15,7 +15,7 @@ export default function Navbar() {
   const scrollToSection = (href) => {
     const element = document.querySelector(href);
     if (element) {
-      element.scrollIntoView({ 
+      element.scrollIntoView({
         behavior: 'smooth',
         block: 'start'
       });
@@ -30,6 +30,9 @@ export default function Navbar() {
             <li
               className="text-white text-xs font-medium px-2 py-1 cursor-pointer hover:bg-white hover:text-black hover:rounded-xl transition-all duration-300 hover:scale-105 whitespace-nowrap"
               key={link.id}
+              onMouseDown={(e) => e.preventDefault()}
+              onTouchStart={(e) => e.preventDefault()}
+
               onClick={() => scrollToSection(link.href)}
             >
               {link.name}
