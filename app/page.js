@@ -65,7 +65,7 @@ export default function Home() {
                   📧 EMAIL: MOUNIBCODES@GMAIL.COM
                 </p>
                 <p className={`${newwake.className} text-lg text-gray-700`}>
-                  📱 PHONE: +213 552 098 401
+                  📱 PHONE: +213 668 313 256 
                 </p>
                 <p className={`${newwake.className} text-lg text-gray-700`}>
                   📍 LOCATION: ALGERIA
@@ -238,43 +238,6 @@ export default function Home() {
                   </span>
                 </div>
               </div>
-              {/* Notion CMS Blog */}
-              <div className="bg-white/70 backdrop-blur-sm p-6 rounded-3xl shadow-lg border border-gray-200/50 hover:shadow-xl transition-shadow duration-300">
-                
-                <div className="h-48 rounded-2xl mb-4 overflow-hidden">
-                  <Image 
-                    src="/notion.jpg" 
-                    alt="Notion CMS Blog Project" 
-                    width={400}
-                    height={192}
-                    className="w-full h-full object-cover"
-                    onError={(e) => {
-                      e.target.style.display = 'none';
-                      e.target.nextSibling.style.display = 'flex';
-                    }}
-                  />
-                  <div className="bg-gradient-to-br from-blue-500 to-purple-600 h-full flex items-center justify-center" style={{display: 'none'}}>
-                    <span className={`${newwake.className} text-white text-2xl font-bold`}>NOTION CMS</span>
-                  </div>
-                </div>
-                <h3 className={`${newwake.className} text-xl font-bold mb-3 text-gray-900`}>
-                  NOTION CMS BLOG
-                </h3>
-                <p className={`${newwake.className} text-gray-700 mb-4`}>
-                  DEVELOPED A CMS-POWERED BLOG USING NOTION API WITH DYNAMIC ROUTING, MARKDOWN RENDERING, AND SEO OPTIMIZATION. DEPLOYED ON VERCEL WITH A 95+ LIGHTHOUSE PERFORMANCE SCORE.
-                </p>
-                <div className="flex gap-2 flex-wrap">
-                  <span className={`${newwake.className} bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm`}>
-                    NEXT.JS
-                  </span>
-                  <span className={`${newwake.className} bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm`}>
-                    TAILWIND
-                  </span>
-                  <span className={`${newwake.className} bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm`}>
-                    NOTION API
-                  </span>
-                </div>
-              </div>
 
               {/* Analytics Dashboard */}
               <div className="bg-white/70 backdrop-blur-sm p-6 rounded-3xl shadow-lg border border-gray-200/50 hover:shadow-xl transition-shadow duration-300">
@@ -316,46 +279,44 @@ export default function Home() {
                   </span>
                 </div>
               </div>
-              {/* Analytics Dashboard */}
+              {/* Notion CMS Blog */}
               <div className="bg-white/70 backdrop-blur-sm p-6 rounded-3xl shadow-lg border border-gray-200/50 hover:shadow-xl transition-shadow duration-300">
-                <a 
-                  href="https://revenue-dashboard-black.vercel.app/" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="block"
-                >
-                  <div className="h-48 rounded-2xl mb-4 overflow-hidden cursor-pointer hover:scale-105 transition-transform duration-300">
-                    <Image 
-                      src="/REVENUE DASHBOARD __ FRONTEND INTREFACE WITHOUT ALL THE WORKING STUFF - Brave 10_25_2025 4_55_05 PM.png" 
-                      alt="REVENUE DASHBOARD" 
-                      width={400}
-                      height={192}
-                      className="w-full h-full object-cover"
-                      onError={(e) => {
-                        e.target.style.display = 'none';
-                        e.target.nextSibling.style.display = 'flex';
-                      }}
-                    />
-                    <div className="bg-gradient-to-br from-green-500 to-teal-600 h-full flex items-center justify-center" style={{display: 'none'}}>
-                      <span className={`${newwake.className} text-white text-2xl font-bold`}>ANALYTICS</span>
-                    </div>
+                
+                <div className="h-48 rounded-2xl mb-4 overflow-hidden">
+                  <Image 
+                    src="/notion.jpg" 
+                    alt="Notion CMS Blog Project" 
+                    width={400}
+                    height={192}
+                    className="w-full h-full object-cover"
+                    onError={(e) => {
+                      e.target.style.display = 'none';
+                      e.target.nextSibling.style.display = 'flex';
+                    }}
+                  />
+                  <div className="bg-gradient-to-br from-blue-500 to-purple-600 h-full flex items-center justify-center" style={{display: 'none'}}>
+                    <span className={`${newwake.className} text-white text-2xl font-bold`}>NOTION CMS</span>
                   </div>
-                </a>
+                </div>
                 <h3 className={`${newwake.className} text-xl font-bold mb-3 text-gray-900`}>
-                  REVENUE DASHBOARD
+                  NOTION CMS BLOG
                 </h3>
                 <p className={`${newwake.className} text-gray-700 mb-4`}>
-                  DEVELOPED A RESPONSIVE FRONTEND DASHBOARD FOR DATA VISUALIZATION USING REACT.JS AND CHART.JS, FEATURING REUSABLE COMPONENTS, API INTEGRATION, AND OPTIMIZED PERFORMANCE THROUGH RENDER AND CACHING IMPROVEMENTS.
+                  DEVELOPED A CMS-POWERED BLOG USING NOTION API WITH DYNAMIC ROUTING, MARKDOWN RENDERING, AND SEO OPTIMIZATION. DEPLOYED ON VERCEL WITH A 95+ LIGHTHOUSE PERFORMANCE SCORE.
                 </p>
                 <div className="flex gap-2 flex-wrap">
                   <span className={`${newwake.className} bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm`}>
-                    REACTJS
+                    NEXT.JS
                   </span>
-                  <span className={`${newwake.className} bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm`}>
-                    CHART.JS
+                  <span className={`${newwake.className} bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm`}>
+                    TAILWIND
+                  </span>
+                  <span className={`${newwake.className} bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm`}>
+                    NOTION API
                   </span>
                 </div>
               </div>
+          
 
 
             </div>
