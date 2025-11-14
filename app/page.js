@@ -242,7 +242,7 @@ export default function Home() {
               {/* Analytics Dashboard */}
               <div className="bg-white/70 backdrop-blur-sm p-6 rounded-3xl shadow-lg border border-gray-200/50 hover:shadow-xl transition-shadow duration-300">
                 <a 
-                  href="https://vercel-dashboard-mounib.vercel.app/login" 
+                  href="https://vercel-dashboard-mounib.vercel.app/dashboard" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="block"
@@ -360,7 +360,7 @@ export default function Home() {
               LET&apos;S CREATE SOMETHING AMAZING TOGETHER
             </p>
             <a 
-              href="https://wa.me/213552098401" 
+              href="https://wa.me/213668313256" 
               target="_blank" 
               rel="noopener noreferrer"
               className={`${newwake.className} bg-green-600 text-white px-8 py-4 rounded-2xl text-lg font-bold hover:bg-green-700 transition-colors duration-300 hover:scale-105 transform cursor-pointer inline-block`}
